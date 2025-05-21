@@ -146,6 +146,7 @@ if __name__ == "__main__":
     parser.add_argument("--show-reasoning", action="store_true", help="Show reasoning from each agent")
     parser.add_argument("--show-agent-graph", action="store_true", help="Show the agent graph")
     parser.add_argument("--ollama", action="store_true", help="Use Ollama for local LLM inference")
+    parser.add_argument("--openai", action="store_true", help="Use OpenAI API for LLM inference")
 
     args = parser.parse_args()
 
